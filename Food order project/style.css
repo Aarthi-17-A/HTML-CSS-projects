@@ -1,0 +1,102 @@
+* {
+  margin:0;
+  padding:0
+  box-sizing:border-box;
+}
+body{
+  font-family:sans-serif;
+  background-color:#ffeae0;
+}
+.nav-div{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-block-start:20px;
+}
+.logo{
+  margin-inline-start:80px;
+  Font-weight:bold;
+  font-size:25px;
+}
+.logo::after{
+  content:"io";
+  color:#ff511c;
+}
+li{
+  display:inline;
+  font-size:17px;
+  padding-inline-end:20px;
+  text-align:center;
+}
+li:hover {
+  border-bottom:1px solid #ff511c;
+  border-bottom-width:3px;
+}
+
+button{
+  margin-inline-start:15px;
+  font-size:15px;
+  padding:6px;
+  border-radius:5px;
+}
+.btn{
+  margin-inline-start:40px;
+  background-color:#ffeae0;
+  border:1px solid black;
+}
+.btn:hover{
+  background-color:#000;
+  color:#fff;
+}
+.btn2{
+  margin-inline-end:150px;
+  background-color:#ff511c;
+  border:none;
+  color:#fff;
+}
+.btn2:hover{
+  background-color:#e2460f;
+}
+h1{
+  font-size:50px;
+}
+h1::before{
+  content:"🍽️";
+}
+
+img{
+  max-width:700px;
+  border-radius:50%;
+  height:450px;
+}
+.content{
+  display:grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows:500px;
+}
+.topic{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+.topic h1{
+  margin-inline-start:80px;
+  margin-block-end:25px;
+}
+.topic p{
+  margin-inline-start:80px;
+  font-size:19px;
+}
+.p-class{
+  margin-block-end:25px;
+}
+.img-section{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  max-width:50%;
+  margin-inline-start:150px;
+}
+
+
