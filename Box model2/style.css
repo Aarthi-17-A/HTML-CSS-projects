@@ -1,0 +1,63 @@
+*{
+  font-family:sans-serif;
+}
+.nav-div{
+  display:flex;
+  background-color:black;
+  color:white;
+  align-items:center;
+  justify-content:space-between;
+}
+.logo{
+  font-weight:bold;
+  margin-left:5px;
+  font-size:20px;
+}
+li{
+  display:inline;
+  margin-right:20px;
+  font-size:20px;
+}
+.btn{
+  background-color: red;
+  color:white;
+}
+button{
+  padding:5px;
+  justify-content:space-evenly;
+  margin-right:10px;
+  border-radius:5px;
+  border:none;
+}
+
+.dashboard{
+  display:grid;
+  grid-template-columns: 300px 1000px;
+  grid-template-rows: 380px 80px;
+}
+  
+
+.sidebar{
+  background-color:#f4f4f4;
+}
+.sidebar li{
+  display:block;
+  background-color: #ddd;
+  margin:5px;
+  padding:10px;
+  border-radius:7px;
+  margin-right:35px;
+}
+.content{
+  display:block;
+  background-color:rgb(226,204,204);
+}
+.progress{
+  background-color:#d1f7c4;
+}
+.cards{
+  background-color:#e8fofe;
+}
+.progress{
+  grid-column:span 2;
+}
